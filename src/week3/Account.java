@@ -1,21 +1,26 @@
 package week3;
 
-public class Account {
+public class Account {//定义一个类
 	   private String name;
 	   private double balance;
-	   private String accID;
-         // constructor
-	   public Account(String accountID, String accountName, double amount)
+	   private String accID;//定义成员变量
+         // constructor构造器
+	   public Account(String accountID, String accountName, double amount)//
 	   {  
+		   /*构造器用于初始化新创建的对象。
+		   它的名字与类名相同，并且没有返回类型*/
+		   
 		   accID = accountID;
 		   name = accountName;
 		   balance = amount;
 	   }
-	   //  accessors
+	   //  accessors访问器方法
+	   /*访问器方法用于获取私有成员变量的值。它们通常以 get 开头，
+	    * 后跟变量名的首字母大写形式。*/
 	   public double getBalance() { return balance; }
 	   public String getID() { return accID; }
 	   public String getName() { return name; }
-	//  mutators performing common operations withdraw, deposit, transfer
+	//  mutators performing common operations withdraw, deposit, transfer 变更器方法
 	   public void deposit(double amount) {
 		  balance  += amount; //计算总的存款deposit，即：balance=balance+amount
 	   }
