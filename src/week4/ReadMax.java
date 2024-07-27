@@ -42,7 +42,7 @@ public class ReadMax {
 
 //min方法
 	public static double min(double z, double q) {
-		double result2;
+		double result2;//变量要在方法之前命名好；
 		if (z < q) {
 			result2 = z;
 		} else {
@@ -53,13 +53,21 @@ public class ReadMax {
 
 	public static void main(String[] args) {
 		
-		double result3;
-		double result4;
-		
-		double result3=ReadMax.max();
-		double result4=ReadMax.min(); 
+		   ReadMax readMax = new ReadMax();
 
-		System.out.println("maximum mark is " + result3);
-		System.out.println("minimum marks is " + result4);
+	        double a = readMax.a;
+	        double b = readMax.b;
+	        double c = readMax.c;
+
+	        readMax.average(a, b, c);
+
+	        double max1 = max(a, b);
+	        double maxMark = max(max1, c);
+
+	        double min1 = min(a, b);
+	        double minMark = min(min1, c);
+
+	        System.out.println("Maximum mark is " + maxMark);
+	        System.out.println("Minimum marks is " + minMark);
 	}
 }
