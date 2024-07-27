@@ -12,7 +12,8 @@ public class Calculator {
     private int total;
 
     // Constructor
-    public Calculator() {
+    public Calculator() {/*this 最常见的用途是引用当前对象的实例变量或方法。
+    当方法或构造器的参数名与类的实例变量名相同时，this 可以用来区分它们*/
         this.total = 0;
     }
 
