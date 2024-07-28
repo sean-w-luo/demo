@@ -15,5 +15,4 @@ public class Validate {
 	          System.out.print("Welcome Mr. " + name);
 	       else System.out.print("Welcome Mr. " + name);
 	   }
-
 }
