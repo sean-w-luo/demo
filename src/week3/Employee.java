@@ -1,10 +1,12 @@
 package week3;
 
 public class Employee {
+	
 	public Employee(String empName, double empSalary){  
 		name = empName;
 		salary = empSalary;   
 	   }	
+	
 	   private String name;
 	   private double salary;
 	   private Employee boss;

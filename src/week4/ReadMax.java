@@ -53,7 +53,8 @@ public class ReadMax {
 
 	public static void main(String[] args) {
 		
-		   ReadMax readMax = new ReadMax();
+		   ReadMax readMax = new ReadMax();//使用new 关键字+构造方法（），用来构造方法创建对象
+		  
 
 	        double a = readMax.a;
 	        double b = readMax.b;
