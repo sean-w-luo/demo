@@ -1,5 +1,9 @@
 package week3;
 
+/* 关于构造器的一个解说：
+ * https://www.douyin.com/video/7124875146288057639
+ */
+
 public class Account {//定义一个类
 	   private String name;
 	   private double balance;
@@ -8,11 +12,11 @@ public class Account {//定义一个类
 	   public Account(String accountID, String accountName, double amount)//
 	   {  
 		   /*构造器用于初始化新创建的对象。
-		   它的名字与类名相同，并且没有返回类型*/
-		   
-		   accID = accountID;
-		   name = accountName;
+		   它的名字与类名相同，给对象的属性赋值，并且没有返回类型*/
+		   name = accountName;  
 		   balance = amount;
+		   accID = accountID;
+		
 	   }
 	   //  accessors访问器方法
 	   /*访问器方法用于获取私有成员变量的值。它们通常以 get 开头，

@@ -62,10 +62,10 @@ public class ReadMax {
 	        readMax.average(a, b, c);
 
 	        double max1 = max(a, b);
-	        double maxMark = max(max1, c);
+	        double maxMark = max(max1, c);//使用 max 方法两次来计算三个分数中的最大值。
 
 	        double min1 = min(a, b);
-	        double minMark = min(min1, c);
+	        double minMark = min(min1, c);//使用 min 方法两次来计算三个分数中的最小值。
 
 	        System.out.println("Maximum mark is " + maxMark);
 	        System.out.println("Minimum marks is " + minMark);
