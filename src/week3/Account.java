@@ -9,7 +9,7 @@ public class Account {//定义一个类
 	   private double balance;
 	   private String accID;//定义成员变量
          // constructor构造器
-	   public Account(String accountID, String accountName, double amount)//
+	   public Account(String accountID, String accountName, double amount)//有参数
 	   {  
 		   /*构造器用于初始化新创建的对象。
 		   它的名字与类名相同，给对象的属性赋值，并且没有返回类型*/

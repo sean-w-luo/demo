@@ -1,6 +1,7 @@
 package week5;
 
 import java.util.*;
+
 public class Validate {
 	 public static void main(String args[]){ 
 	    Scanner console=new Scanner(System.in);
